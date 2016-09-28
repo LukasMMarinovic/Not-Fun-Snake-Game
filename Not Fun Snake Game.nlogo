@@ -34,7 +34,7 @@
 ;//                                           //
 ;///////////////////////////////////////////////
 
-
+globals [Points]
 
 
 to setup ;resets past game
@@ -42,12 +42,14 @@ to setup ;resets past game
   reset-ticks
   setup-patches
   create-turtles 1
+
   [
     set heading 0 ; makes the snake face upward
-    set color red ; makes the snake red
+   ;; set color red ; makes the snake red
     set shape "square" ; sets the shape of the turtle to a square.
+    pen-down
   ]
-
+set Points 0
 
 
 end
@@ -57,6 +59,7 @@ to Start
   ask turtles
   [
     forward 1 ;moves the snake forward one patch
+    Set Points Points + 1
   ]
   check-die
 end
@@ -113,7 +116,7 @@ to leave-trail ;leaves a trail behind the snake
   [
     if pcolor = green
     [
-      set pcolor red
+      set pcolor blue
     ]
 
   ]
@@ -122,14 +125,14 @@ end
 to check-die ;kills the snake whenit crosses itself
   ask turtles
   [
-    if pcolor = red
+    if pcolor = blue
     [
       die
+      output-print "Game Over"
     ]
-  output-write "Game Over"
+
   ]
 end
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -259,6 +262,17 @@ NIL
 NIL
 NIL
 1
+
+MONITOR
+113
+31
+170
+76
+NIL
+Points
+17
+1
+11
 
 @#$#@#$#@
 ## WHAT IS IT?
