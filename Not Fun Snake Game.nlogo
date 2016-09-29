@@ -44,6 +44,7 @@ to setup ;resets past game
   create-turtles 1
 
   [
+    ;setxy random-xcor random-ycor
     set heading 0 ; makes the snake face upward
    ;; set color red ; makes the snake red
     set shape "square" ; sets the shape of the turtle to a square.
@@ -265,9 +266,9 @@ NIL
 
 MONITOR
 113
-31
+26
 170
-76
+71
 NIL
 Points
 17
@@ -275,41 +276,40 @@ Points
 11
 
 @#$#@#$#@
-## WHAT IS IT?
+# Not Fun Snake Game
 
-(a general understanding of what the model is trying to show or explain)
+## WHAT IS *Not Fun Snake Game*?
 
-## HOW IT WORKS
+*Not Fun Snake Game* is a game based off of the *Snake Game* or classic *Tron* games.
 
-(what rules the agents use to create the overall behavior of the model)
+## HOW TO PLAY *Not Fun Snake Game*
 
-## HOW TO USE IT
-
-(how to use the model, including a description of each of the items in the Interface tab)
+The *Not Fun Snake Game* shares a similar concept, but mechanics are different. You have a snake that grows with each tick. The snake can be rotated using the control buttons on the side. In the "points" box, a score of the length of the snake is kept. Having the snake run into itself will cause the game to end.
 
 ## THINGS TO NOTICE
 
-(suggested things for the user to notice while running the model)
+* Increasing or decreasing the speed of the ticks will increase or decrease the speed of the snake.
+* The snake changes colors.
+* This snake game isn't actually fun.
+* This game is not hard. It is punishing(poor game design).
+
 
 ## THINGS TO TRY
 
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
+Winning. Fill Up the entire grid.
 
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
 
 ## CREDITS AND REFERENCES
 
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
+Lukas Marinovic, Austin Tran, and Lamonte McCracken are all the original authors of the *Not Fun Snake Game*. Modifications may be made as stated by the MIT License.
+
+-----------------------------------
+Copyright (c) Scratch-A-Bear Media
+
+All rights reserved.
+
+MIT License
+-----------------------------------
 @#$#@#$#@
 default
 true
