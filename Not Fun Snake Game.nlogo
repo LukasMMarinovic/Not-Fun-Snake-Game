@@ -303,12 +303,16 @@ Winning. Fill Up the entire grid.
 
 Lukas Marinovic, Austin Tran, and Lamonte McCracken are all the original authors of the *Not Fun Snake Game*. Modifications may be made as stated by the MIT License.
 
+
 -----------------------------------
+
 Copyright (c) Scratch-A-Bear Media
 
 All rights reserved.
 
 MIT License
+
+
 -----------------------------------
 @#$#@#$#@
 default
