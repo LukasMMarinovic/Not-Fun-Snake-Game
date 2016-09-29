@@ -3,7 +3,7 @@ A snake game ~ish game created in NetLogo
 
 ## WHAT IS *Not Fun Snake Game*?
 
-*Not Fun Snake Game* is a game based off of the *Snake Game* or classic *Tron* games. 
+*Not Fun Snake Game* is a game based off of the *Snake Game* or classic *Tron* games.
 
 ## HOW TO PLAY *Not Fun Snake Game*
 
@@ -26,10 +26,16 @@ Winning. Fill Up the entire grid.
 
 Lukas Marinovic, Austin Tran, and Lamonte McCracken are all the original authors of the *Not Fun Snake Game*. Modifications may be made as stated by the MIT License.
 
+
 -----------------------------------
+
 Copyright (c) Scratch-A-Bear Media
 
 All rights reserved.
 
 MIT License
+
+
 -----------------------------------
+
+
