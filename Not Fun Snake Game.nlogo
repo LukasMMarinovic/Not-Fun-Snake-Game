@@ -34,7 +34,7 @@
 ;//                                           //
 ;///////////////////////////////////////////////
 
-globals [Points]
+globals [Points EndMessage ]
 
 
 to setup ;resets past game
@@ -51,7 +51,7 @@ to setup ;resets past game
     pen-down
   ]
 set Points 0
-
+set EndMessage "Game Over"
 
 end
 
@@ -129,7 +129,7 @@ to check-die ;kills the snake whenit crosses itself
     if pcolor = blue
     [
       die
-      output-print "Game Over"
+      output-write EndMessage
     ]
 
   ]
